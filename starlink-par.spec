@@ -47,7 +47,7 @@ przekazania do innych aplikacji. Inne mo¿liwo¶ci obejmuj± ustawianie
 Summary:	Header files for PAR library
 Summary(pl):	Pliki nag³ówkowe biblioteki PAR
 Group:		Development/Libraries
-Requires:	%{name} = %{version}
+Requires:	%{name} = %{version}-%{release}
 
 %description devel
 Header files for PAR library.
@@ -59,7 +59,7 @@ Pliki nag³ówkowe biblioteki PAR.
 Summary:	Static Starlink PAR library
 Summary(pl):	Statyczna biblioteka Starlink PAR
 Group:		Development/Libraries
-Requires:	%{name}-devel = %{version}
+Requires:	%{name}-devel = %{version}-%{release}
 
 %description static
 Static Starlink PAR library.
