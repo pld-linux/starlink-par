@@ -1,5 +1,5 @@
 Summary:	PAR - ADAM parameter system
-Summary(pl.UTF-8):   PAR - system parametrów ADAM
+Summary(pl.UTF-8):	PAR - system parametrów ADAM
 Name:		starlink-par
 Version:	2.3.218
 Release:	1
@@ -45,7 +45,7 @@ przekazania do innych aplikacji. Inne możliwości obejmują ustawianie
 
 %package devel
 Summary:	Header files for PAR library
-Summary(pl.UTF-8):   Pliki nagłówkowe biblioteki PAR
+Summary(pl.UTF-8):	Pliki nagłówkowe biblioteki PAR
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 
@@ -57,7 +57,7 @@ Pliki nagłówkowe biblioteki PAR.
 
 %package static
 Summary:	Static Starlink PAR library
-Summary(pl.UTF-8):   Statyczna biblioteka Starlink PAR
+Summary(pl.UTF-8):	Statyczna biblioteka Starlink PAR
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
