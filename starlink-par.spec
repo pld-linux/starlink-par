@@ -1,5 +1,5 @@
 Summary:	PAR - ADAM parameter system
-Summary(pl):	PAR - system parametrów ADAM
+Summary(pl.UTF-8):   PAR - system parametrÃ³w ADAM
 Name:		starlink-par
 Version:	2.3.218
 Release:	1
@@ -30,41 +30,41 @@ with a variety of constraints. Results may be put into parameters to
 be passed onto other applications. Other facilities include setting a
 prompt string, and suggested defaults.
 
-%description -l pl
-PAR to biblioteka funkcji fortranowych dostarczaj±ca wygodne
-mechanizmy dla aplikacji do wymiany informacji z zewnêtrznym ¶wiatem
-poprzez kana³y wej¶cia-wyj¶cia nazywane parametrami. Parametry
-pozwalaj± u¿ytkownikowi sterowaæ zachowaniem aplikacji. PAR obs³uguje
+%description -l pl.UTF-8
+PAR to biblioteka funkcji fortranowych dostarczajÄ…ca wygodne
+mechanizmy dla aplikacji do wymiany informacji z zewnÄ™trznym Å›wiatem
+poprzez kanaÅ‚y wejÅ›cia-wyjÅ›cia nazywane parametrami. Parametry
+pozwalajÄ… uÅ¼ytkownikowi sterowaÄ‡ zachowaniem aplikacji. PAR obsÅ‚uguje
 parametry numeryczne, znakowe i logiczne; aktualnie jest
-zaimplementowany tylko w oparciu o system parametrów ADAM.
+zaimplementowany tylko w oparciu o system parametrÃ³w ADAM.
 
-Biblioteka PAR pozwala na uzyskanie warto¶ci parametrów bez lub z
-ró¿nymi ograniczeniami. Wyniki mog± byæ umieszczone w parametrach do
-przekazania do innych aplikacji. Inne mo¿liwo¶ci obejmuj± ustawianie
-³añcucha zachêty i sugerowanych warto¶ci domy¶lnych.
+Biblioteka PAR pozwala na uzyskanie wartoÅ›ci parametrÃ³w bez lub z
+rÃ³Å¼nymi ograniczeniami. Wyniki mogÄ… byÄ‡ umieszczone w parametrach do
+przekazania do innych aplikacji. Inne moÅ¼liwoÅ›ci obejmujÄ… ustawianie
+Å‚aÅ„cucha zachÄ™ty i sugerowanych wartoÅ›ci domyÅ›lnych.
 
 %package devel
 Summary:	Header files for PAR library
-Summary(pl):	Pliki nag³ówkowe biblioteki PAR
+Summary(pl.UTF-8):   Pliki nagÅ‚Ã³wkowe biblioteki PAR
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 
 %description devel
 Header files for PAR library.
 
-%description devel -l pl
-Pliki nag³ówkowe biblioteki PAR.
+%description devel -l pl.UTF-8
+Pliki nagÅ‚Ã³wkowe biblioteki PAR.
 
 %package static
 Summary:	Static Starlink PAR library
-Summary(pl):	Statyczna biblioteka Starlink PAR
+Summary(pl.UTF-8):   Statyczna biblioteka Starlink PAR
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
 %description static
 Static Starlink PAR library.
 
-%description static -l pl
+%description static -l pl.UTF-8
 Statyczna biblioteka Starlink PAR.
 
 %prep
